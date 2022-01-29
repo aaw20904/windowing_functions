@@ -1,0 +1,31 @@
+$theme-colors:(
+    "colorA":#88ffaa,
+    "colorB":#333333,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+
+body{
+    overflow-x:hidden !important;
+}
+
+input[id="number-of-points"]{
+    border-radius:8px !important;
+}
+
+.btn-primary{
+    background-color:#008800;
+    border:1px solid #004400;
+    border-radius:6px;
+    color:#aaffaa !important;
+}
+
+.btn-primary:hover{
+     color:#004000 !important;
+    background-color:#aaffaa !important;
+}
+
+.result{
+    border-radius:5px !important;
+}

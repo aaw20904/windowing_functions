@@ -1,0 +1,60 @@
+ /* marko-one-regular - latin */
+@font-face {
+	font-family: 'Marko One';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/fnt-marko-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		 url('./fonts/fnt-marko-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('./fonts/fnt-marko-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('./fonts/fnt-marko-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+		 url('./fonts/fnt-marko-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('./fonts/fnt-marko-one-v20-latin-regular.svg#MarkoOne') format('svg'); /* Legacy iOS */
+  }
+  
+  .mathFont{
+	  font-family: 'Marko One';
+  }
+
+
+.form_radio {
+	margin-bottom: 10px;
+}
+.form_radio input[type=radio] {
+	display: none;
+}
+.form_radio label {
+	 display: inline-block;
+	cursor: pointer;
+	position: relative;
+ 	padding-left: 35px;
+	margin-right: 0;
+	line-height: 15px; 
+	user-select: none;
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	 position: absolute;
+	left: 0;
+    top: -3px; 
+	
+	background: url("./img/bckg-off.svg") 0 0 no-repeat;
+}
+ 
+/* Checked */
+.form_radio input[type=radio]:checked + label:before {
+	background: url("./img/bckg-on.svg") 0 0 no-repeat;
+}
+ 
+/* Hover */
+.form_radio label:hover:before {
+	filter: brightness(120%);
+}
+ 
+/* Disabled */
+.form_radio input[type=radio]:disabled + label:before {
+	filter: grayscale(100%);
+}
