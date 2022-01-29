@@ -1,3 +1,4 @@
+/*Author: Andrew Androsowych*/
 function calc(x={points:16,type:'Hann',alpha:0.5}) {
     let accum = [];
     let result;
