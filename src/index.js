@@ -1,3 +1,5 @@
+/*Author: Andrew Androsowych*/
+
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 window.bootsrtap = require('../node_modules/bootstrap/dist/js/bootstrap.bundle.js');
