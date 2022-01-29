@@ -1,4 +1,5 @@
 
+/*Author: Andrew Androsowych*/
 function findButtonValue (btnSelector='input[type="radio"]') {
 let btnList = document.querySelectorAll(btnSelector);
            
